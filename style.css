@@ -1,0 +1,76 @@
+body {
+    background-image: url(img/BR-pt-20220502-popsignuptwoweeks-perspective_alpha_website_medium\ \(1\).jpg);
+    overflow: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 3em;
+    color: #E50914;
+}
+
+.area-login{
+    display: flex;
+   
+    height: 58vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    border-radius: 5px;
+    background-color:rgba(49, 40, 40, 0.829);
+    width: 350px;
+    height: 360px;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login input {
+    border-radius: 8px;
+    margin-top: 20px;
+    padding-top: 15px;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+.login p {
+    color: white;
+    text-align: center;
+}
+
+.login h1 {
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+.login p a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button{
+    border-radius: 8px;
+    padding-top: 15px;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    background-color: rgb(231, 13, 13);
+    margin-left: 28px;
+    margin-right: 28px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: #0528f1;
+    color: rgb(255, 255, 255);
+}
+
